@@ -1,0 +1,43 @@
+﻿<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema"
+                  Author="PnP"
+                  Generator="Human being"
+                  Version="1.0"
+                  Description="A sample Provisioning document"
+                  DisplayName="Sample Provisioning"
+                  ImagePreviewUrl="https://sharepointpnp.com/ImagePreview.png">
+  
+  <pnp:Preferences Author="PnP" Version="1.0" />
+  <pnp:Teams>
+    <pnp:Team DisplayName="Commsverse PnP PowerShell" Description="This is a team created from PnP PowerSehll" Classification=""
+                Visibility="Public" Archived="false">
+      <pnp:FunSettings AllowGiphy="true" GiphyContentRating="Moderate"
+                       AllowStickersAndMemes="true" AllowCustomMemes="true"/>
+      <pnp:GuestSettings AllowCreateUpdateChannels="true" AllowDeleteChannels="false"/>
+      <pnp:MembersSettings AllowCreateUpdateChannels="true" AllowDeleteChannels="false"
+                           AllowAddRemoveApps="true"
+                           AllowCreateUpdateRemoveConnectors="true"
+                           AllowCreateUpdateRemoveTabs="false" />
+      <pnp:MessagingSettings AllowUserEditMessages="true" AllowUserDeleteMessages="true"
+                             AllowOwnerDeleteMessages="false"
+                             AllowTeamMentions="true"
+                             AllowChannelMentions="true"/>
+      <pnp:Security>
+        <pnp:Owners ClearExistingItems="true">
+          <pnp:User UserPrincipalName="anoop@anoopccdev1.onmicrosoft.com" />
+        </pnp:Owners>
+        <pnp:Members ClearExistingItems="false">
+          <pnp:User UserPrincipalName="adelev@anoopccdev1.onmicrosoft.com" />
+        </pnp:Members>
+      </pnp:Security>
+      <pnp:Channels>
+        <pnp:Channel DisplayName="Announcements 📢"
+                     Description="This is a sample announcements channel that is favorited by default. Use this channel to make important team, product, and service announcements."
+                     IsFavoriteByDefault="true">
+        </pnp:Channel>
+        <pnp:Channel DisplayName="Training 🏋"
+                     Description="This is a sample training channel."
+                     IsFavoriteByDefault="false" />
+      </pnp:Channels>
+    </pnp:Team>
+  </pnp:Teams>
+</pnp:Provisioning>
