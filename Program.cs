@@ -8,11 +8,11 @@ namespace Commsverse.ProvisionTeams
     class AppSettings
     {
         // configuration data for confidential client app
-        public const string clientId = "cf369603-fbb5-4b03-95f4-b3cd95e27a2e";
-        public const string clientSecret =                                                                                                                                                                                                  "X_bigGlCqB~3Y2ar23eRsQ2R-El..BF_.n";
+        public const string clientId = "";
+        public const string clientSecret = "";
 
         // generic v2 endpoint references "organizations" instead of "common"
-        public const string tenantName = "anoopccdev1.onmicrosoft.com";
+        public const string tenantName = "yourtenant.onmicrosoft.com";
         public const string tenantCommonAuthority = "https://login.microsoftonline.com/organizations";
         public const string tenantSpecificAuthority = "https://login.microsoftonline.com/" + tenantName;
     }
