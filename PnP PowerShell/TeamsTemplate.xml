@@ -23,10 +23,10 @@
                              AllowChannelMentions="true"/>
       <pnp:Security>
         <pnp:Owners ClearExistingItems="true">
-          <pnp:User UserPrincipalName="anoop@anoopccdev1.onmicrosoft.com" />
+          <pnp:User UserPrincipalName="owner@yourtenant.onmicrosoft.com" />
         </pnp:Owners>
         <pnp:Members ClearExistingItems="false">
-          <pnp:User UserPrincipalName="adelev@anoopccdev1.onmicrosoft.com" />
+          <pnp:User UserPrincipalName="member@yourtenant.onmicrosoft.com" />
         </pnp:Members>
       </pnp:Security>
       <pnp:Channels>
